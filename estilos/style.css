@@ -1,0 +1,540 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+/*
+font-family: 'Noticia Text', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+*/
+
+:root {
+    /* CORES DO FOOTER */
+    --color-neutral-0: #0e0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* NAVBAR */
+
+/* FIM NAVBAR */
+
+/* CARROSSEL */
+
+.carousel-item {
+    width: 100vw;
+    height: 270px;
+}
+
+.carrossel {
+    background-color: lightskyblue
+}
+
+/* FIM CARROSSEL */
+
+main {
+    width: 100vw;
+}
+/* CARDS DA EMPRESA */
+
+.asidecards {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    background-color: white;
+    
+}
+    /* div card */
+    .card {
+        width: 20%;
+        height: 230px;
+        box-sizing: border-box;
+        font-family: 'Noticia Text', serif;
+        border: 0;
+
+        position: relative;
+        text-align: center;
+    }
+
+    .card-body {
+        background-color: #F5F5F5;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    #icon1 {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 50px;
+    }
+
+    #icon2 {
+        position: absolute;
+        top: 20%;
+        left: 40%;
+    }
+
+    #icon3 {
+        position: absolute;
+        top: 20%;
+        left: 37%;
+    }
+
+    #icon4 {
+        position: absolute;
+        top: 20%;
+        left: 38%;
+    }
+    
+    /* titulo */
+    .card-title {
+        font-size: 22px;
+        font-weight: 700;
+        text-align: center;
+        align-items: center;
+    }
+    /* paragráfo */
+    .card-text {
+        font-size: 15px;
+        text-align: center;
+        align-items: center;
+    }
+
+    #titulocard2 {
+        font-size: 19.7px;
+        font-weight: 700;
+        text-align: center;
+        align-items: center;
+        margin-top: 3px;
+    }
+
+/* FORMULARIO */
+.conteudo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color: rgba(192, 191, 191, 0.74);
+    width: 100vw;
+}
+    .conteudo > h2 {
+        font-family: 'Raleway', sans-serif;
+        color: #0e0c0cd2;
+    }
+/* FIM FORMULARIO */
+
+/* CARDS SOBRE ENERGIA */
+.sobreenergia {
+    display: inline-block;
+}
+
+    #sobreenergia1 {
+        width: 100vw;
+        height: 400px;
+       
+        
+        margin-bottom: 30px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(..//imagens/img04.jpg);
+    }
+
+    #sobreenergia2 {
+        width: 100vw;
+        height: 400px;
+        
+        margin-bottom: 30px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #B45C3D;
+    }
+
+    #sobreenergia3 {
+        width: 100vw;
+        height: 400px;
+        
+        margin-bottom: 30px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        background-image: url(..//imagens/img05.jpg);
+    }
+
+    #sobreh5-1 {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 27px;
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+    #sobreh5-2 {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 27px;
+        line-height: 1.2em;
+        padding-left: 30px;
+        padding-top: 30px;
+        color: white;
+    }
+
+    #sobreh5-3 {
+        padding-left: 30px;
+        padding-top: 22px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 27px;
+    }
+
+    #sobrep-1 {
+        padding-left: 35px;
+        padding-top: 8px;
+        line-height: 1.7em;
+        font-weight: 300;
+        font-size: 1.2em;
+        font-size: italic;
+    }
+    
+    #sobrep-2 {
+        padding-left: 42px;
+        padding-top: 8px;
+        line-height: 1.7em;
+        font-weight: 300;
+        font-size: 1.2em;
+        font-size: italic;
+        color: rgba(255, 255, 255, 0.795);
+    }
+
+    #sobrep-3 {
+        padding-left: 50px;
+        line-height: 1.7em;
+        font-weight: 300;
+        font-size: 1.2em;
+        font-size: italic;
+    }
+/* FIM CARDS SOBRE ENERGIA */
+
+/* ESCOLHA */
+
+.escolha {
+    background-color: rgba(211, 211, 211, 0.507);
+    height: 70px;
+    width: 97vw;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 7px 7px 7px 7px;
+}
+    .escolha h2 {
+        padding: 20px;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.123);
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+    }
+/* FIM ESCOLHA */
+
+/* GRAFICO */
+#grafico1 {
+    width: 100vw;
+    height: 150px;
+    background-color: #CFDDE9;
+    margin-bottom: 30px;
+}
+
+    #grafico2 {
+        width: 100vw;
+        height: 150px;
+        background-color: #CFDDE9;
+        margin-bottom: 30px;
+    }
+
+    #grafico3 {
+        width: 100vw;
+        height: 150px;
+        background-color: #CFDDE9;
+        margin-bottom: 30px;
+    }
+
+    .graficofontes {
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+    }
+
+    #grafico1 > h2 {
+        padding-top: 30px;
+        font-size: 40px;
+    }
+
+    #grafico1 > p {
+        font-size: 1.1em;
+    }
+
+    #grafico2 > h2 {
+        padding-top: 30px;
+        font-size: 40px;
+    }
+
+    #grafico2 > p {
+        font-size: 1.1em;
+    }
+
+    #grafico3 > h2 {
+        padding-top: 30px;
+        font-size: 40px;
+    }
+
+    #grafico3 > p {
+        font-size: 1.1em;
+    }
+/* FIM GRAFICO */
+
+/* BANNER SOBRE EMPRESA */
+.bannerempresa {
+    height: 550px;
+    background-image: url(..//imagens/img06.webp);
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+    .bannerempresa > p {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1.5em;
+        padding-top: 110px;
+        padding-left: 22px;
+    }
+/* FIM BANNER SOBRE EMPRESA */
+
+/* NOSSOS SERVIÇOS */
+.nossosservicos {
+    background-color: #F2F2F2;
+    width: 100vw;
+    height: 150px;
+    margin-bottom: 30px;
+}
+    
+    .nossosservicos > h2 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.185);
+        padding: 60px;
+    }
+/* FIM NOSSOS SERVIÇOS */
+
+/* TIPOS DE ATENDIMENTOS */
+.fa-solid {
+    margin-bottom: 20px;
+}
+
+#atendimentos1 {
+    background-color: #B45C3D;
+    width: 100vw;
+    height: 340px;
+    margin-bottom: 30px;
+    padding-top: 80px;
+    padding-left: 40px;
+    color: white;
+}
+    #atendimentos1 > h3 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 34px;
+    }
+
+    #atendimentos1 > p {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 20px;
+    }
+
+    #atendimentos2 {
+        background-color: #12222E;
+        width: 100vw;
+        height: 340px;
+        margin-bottom: 30px;
+        padding-top: 80px;
+        padding-left: 40px;
+        color: white;
+    }
+
+    #atendimentos2 > h3 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 34px;
+    }
+
+    #atendimentos2 > p {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 20px;
+    }
+
+    #atendimentos3 {
+        background-color: #CFDDE9;
+        width: 100vw;
+        height: 340px;
+        margin-bottom: 30px;
+        padding-top: 80px;
+        padding-left: 40px;
+        color: black;
+    }
+
+    #atendimentos3 > h3 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 34px;
+    }
+
+    #atendimentos3 > p {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 20px;
+    }
+/* FIM TIPOS DE ATENDIMENTOS */
+
+/* FOOTER */
+
+footer {
+    width: 100vw;
+    color: var(--color-neutral-40);
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+#footer_content {
+    background-color: var(--color-neutral-10);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_contacts h1 {
+    margin-bottom: 0.75rem;
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+} 
+
+#footer_social_media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#footer_social_media .footer-link i {
+    font-size: 1.25rem;    
+}
+
+#footer_social_media .footer-link:hover {
+    opacity: 0.8;
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook {
+    background-color: #4267b3;
+}
+
+#whatsapp {
+    background-color: #25d366;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+.footer-list .footer-link {
+    color: var(--color-neutral-30);
+    transition: all 0.4s;
+}
+
+.footer-list .footer-link:hover {
+    color: #7f37c9;
+}
+
+#footer_subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#footer_subscribe p {
+    color: var(--color-neutral-30);
+}
+
+#input_group {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-neutral-0);
+    border-radius: 4px;
+}
+
+#input_group input {
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+#input_group button {
+    background-color: #7f37c9;
+    border: none;
+    color: var(--color-neutral-40);
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#input_group button:hover {
+    opacity: 0.8;
+}
+
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 768px) {
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+}

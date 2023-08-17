@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/media-query.style.css">
+    <title>Energia Solar</title>
+</head>
+
+<body>
+    <header>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Energia Solar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Página inicial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Clientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fale conosco</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" style="color: white;" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit" style="color: white; border: 1px solid white;">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- FIM NAVBAR -->
+    </header>
+
+    <main>
+        <!-- CARROSSEL -->
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagens/img01.jpg" class="d-block w-100" alt="Imagem 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/img02.jpg" class="d-block w-100" alt="Imagem 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/img03.jpg" class="d-block w-100" alt="Imagem 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próxima</span>
+            </button>
+        </div>
+
+        <!-- FIM CARROSSEL -->
+
+
+
+
+        <!-- CARDS -->
+        <aside class="asidecards">
+            <div class="card" id="ocard1">
+                <div class="card-body">
+                    <i class="fa-solid fa-truck fa-1x" id="icon1" style="color: #ff8800;"></i>
+                    <h5 class="card-title">Instalação Gratís</h5>
+                    <p class="card-text">Confira as Condições.</p>
+                </div>
+            </div>
+
+            <div class="card" id="ocard2">
+                <i class="fa-solid fa-money-check-dollar" id="icon2" style="color: #ff8800;"></i>
+                <div class="card-body">
+                    <h5 class="card-title" id="titulocard2" >Financiamento</h5>
+                    <p class="card-text">De até 48 Meses.</p>
+                </div>
+            </div>
+
+            <div class="card" id="ocard3">
+                <i class="fa-solid fa-credit-card" id="icon3" style="color: #ff8800;"></i>
+                <div class="card-body">
+                    <h5 class="card-title">ATÉ 12X SEM JUROS</h5>
+                    <p class="card-text">10% Off no Boleto.</p>
+                </div>
+            </div>
+
+            <div class="card" id="ocard4">
+                <i class="fa-solid fa-lock" id="icon4" style="color: #ff8800;"></i>
+                <div class="card-body" id="card4">
+                    <h5 class="card-title">100% SEGURO</h5>
+                    <p class="card-text">Confiavél e 100% Seguro.</p>
+                </div>
+            </div>
+        </aside>
+        <!-- FIM CARDS SOBRE -->
+
+        <!-- CONTEUDO DO FORMULARIO -->
+        <article class="conteudo">
+            <form action="https://formsubmit.co/exemplemail.2023@gmail.com" method="post">
+                <h2>Faça um orçamento sem compromisso!</h2>
+                <div class="row g-3">
+                    <div class="col">
+                        <label for="nome" class="form-label">Nome:</label>
+                        <input type="text" name="nome" class="form-control" placeholder="Nome" aria-label="Nome"
+                            style="margin-bottom: 12px;" required>
+                    </div>
+                    <div class="col">
+                        <label for="sobrenome" class="form-label">Sobrenome:</label>
+                        <input type="text" name="sobrenome" class="form-control" placeholder="Sobrenome" aria-label="Sobrenome" required>
+                    </div>
+                </div>
+                
+                    <div>
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+                    </div>
+                    <div class="col-12">
+                        <label for="endereço" class="form-label">Endereço:</label>
+                        <input type="text" name="endereço" class="form-control" id="inputAddress" placeholder="Endereço" required>
+                    </div>
+                    <div class="col-12">
+                        <label for="telefone" class="form-label">Telefone:</label>
+                        <input type="tel" name="telefone" class="form-control" id="inputTel" placeholder="Telefone" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="cidade" class="form-label">Cidade:</label>
+                        <input type="text" name="cidade" class="form-control" id="inputCity" placeholder="Cidade" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="estado" class="form-label">Estado:</label>
+                        <select id="inputState" class="form-select" name="estado" required>
+                            <option>Acre</option>
+                            <option>Alagoas</option>
+                            <option>Amapá</option>
+                            <option>Amazonas</option>
+                            <option>Bahia</option>
+                            <option>Ceará</option>
+                            <option>Distrito Federal</option>
+                            <option>Espírito Santo</option>
+                            <option>Goiás</option>
+                            <option>Maranhão</option>
+                            <option>Mato Grosso</option>
+                            <option>Mato Grosso do Sul</option>
+                            <option>Minas Gerais</option>
+                            <option>Pará</option>
+                            <option>Paraíba</option>
+                            <option>Paraná</option>
+                            <option>Pernambuco</option>
+                            <option>Piauí</option>
+                            <option>Rio de Janeiro</option>
+                            <option>Rio Grande do Norte</option>
+                            <option>Rio Grande do Sul</option>
+                            <option>Rondônia</option>
+                            <option>Roraima</option>
+                            <option>Santa Catarina</option>
+                            <option selected>São Paulo</option>
+                            <option>Sergipe</option>
+                            <option>Tocantins</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <label for="cep" class="form-label">CEP:</label>
+                        <input type="text" class="form-control" name="cep" id="inputZip" required>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                            <label class="form-check-label" for="gridCheck">
+                                Aceito com todos os termos e condições.
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Enviar Dados</button>
+                    </div>
+
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/template-pages/01-mobile-first/index.html">
+            </form>
+        </article>
+        <!-- FIM CONTEUDO DO FORMULARIO -->
+
+        <!-- SOBRE ENERGIA -->
+        <aside class="sobreenergia">
+            <div class="sobreenergia">
+                <div id="sobreenergia1">
+                    <h5 id="sobreh5-1">Energia sustentável <br> e renovável</h5>
+                    <p id="sobrep-1">São conceitos fundamentais <br> para abordar os desafios globais <br> de escassez
+                        de recursos naturais <br> e impactos ambientais negativos <br> causados pela produção e uso de
+                        <br> energia convencional baseada em <br> combustíveis fósseis.
+                    </p>
+                </div>
+                <div id="sobreenergia2">
+                    <h5 id="sobreh5-2">Seguro e confiável. <br> Controle sua <br> produção de energia</h5>
+                    <p id="sobrep-2">Refere-se ao gerenciamento e <br> regulamentação eficaz da geração, <br>
+                        distribuição e consumo de energia <br> para garantir eficiência, confiabilidade <br> e
+                        sustentabilidade.</p>
+                </div>
+                <div id="sobreenergia3">
+                    <h5 id="sobreh5-3">Economia e retorno <br> sobre o investimento</h5>
+                    <p id="sobrep-1">O uso da energia solar tem ganhado <br> destaque devido aos seus benefícios <br>
+                        econômicos e ambientais.</p>
+                </div>
+            </div>
+        </aside>
+        <!-- FIM SOBRE ENERGIA -->
+        <!-- SUA MELHOR ESCOLHA -->
+        <div class="escolha">
+            <h2>Sua melhor escolha</h2>
+        </div>
+        <!-- FIM SUA MELHOR ESCOLHA-->
+        <!-- GRAFICO DA EMPRESA -->
+        <div class="graficofontes">
+            <div id="grafico1">
+                <h2>180 K</h2>
+                <p>Cliente felizes</p>
+            </div>
+            <div id="grafico2">
+                <h2>2,7 Bi</h2>
+                <p>KwH de energia limpa</p>
+            </div>
+            <div id="grafico3">
+                <h2>1,9 M</h2>
+                <p>Toneladas métricas de emissões de <br> carbono evitadas</p>
+            </div>
+        </div>
+        <!-- FIM GRAFICO DA EMPRESA -->
+        <!-- BANNER -->
+        <div class="bannerempresa">
+            <p>Equipe com boas qualificações e <br> qualificadas para prestar o melhor <br> atendimento ao consumidor.
+                <br> A mais de 6 anos atuando no mercado.
+            </p>
+        </div>
+        <!-- FIM BANNER -->
+        <!-- NOSSOS SERVIÇOS -->
+        <div class="nossosservicos">
+            <h2>Nossos serviços</h2>
+        </div>
+        <!-- FIM NOSSOS SERVIÇOS -->
+
+        <!-- ATENDIMENTOS -->
+        <div id="atendimentos1">
+            <i class="fa-solid fa-house fa-2x" style="color: #ffffff;"></i>
+            <h3>Residêncial</h3>
+            <p>Realizamos nossos serviço <br> e instalação na sua residência.</p>
+        </div>
+        <div id="atendimentos2">
+            <i class="fa-solid fa-building fa-2x" style="color: #ffffff;"></i>
+            <h3>Comercial</h3>
+            <p>Realizamos nossos serviço <br> e instalação no seu comércio.</p>
+        </div>
+        <div id="atendimentos3">
+            <i class="fa-solid fa-phone fa-2x" style="color: #000000;"></i>
+            <h3>Suporte</h3>
+            <p>Oferecemos suporte para <br> toda situação e localização.</p>
+        </div>
+        <!-- FIM ATENDIMENTOS -->
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1>USER</h1>
+                <p>Salve o mundo, use energia renovável.</p>
+
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Redes Sociais:</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Instagram: @user</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Facebook: user</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Whatsapp: (11) 9999-9999</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Suporte:</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Email: exemplo@gmail.com</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Whatsapp: (11) 9999-9999</a>
+                </li>
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3>Inscreva-se</h3>
+
+                <p>
+                    Coloque seu email para receber todas as notificações do site.
+                </p>
+
+                <div id="input_group">
+                    <input type="email" id="email" placeholder="Email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            2023 Todos os direitos reservados.
+        </div>
+    </footer>
+    <!-- FIM FOOTER -->
+</body>
+
+</html>
