@@ -80,6 +80,10 @@
     .card-body {
         border-radius: 0;
     }
+
+    .card {
+        transition: 0s;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
