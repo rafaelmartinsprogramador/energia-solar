@@ -70,9 +70,14 @@ main {
         box-sizing: border-box;
         font-family: 'Noticia Text', serif;
         border: 0;
-
         position: relative;
         text-align: center;
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+        border: 3px solid rgba(128, 128, 128, 0.384);
     }
 
     .card-body {
@@ -146,12 +151,9 @@ main {
 .sobreenergia {
     display: inline-block;
 }
-
     #sobreenergia1 {
         width: 100vw;
         height: 400px;
-       
-        
         margin-bottom: 30px;
         background-size: cover;
         background-repeat: no-repeat;
@@ -161,7 +163,6 @@ main {
     #sobreenergia2 {
         width: 100vw;
         height: 400px;
-        
         margin-bottom: 30px;
         background-size: cover;
         background-repeat: no-repeat;
@@ -171,12 +172,16 @@ main {
     #sobreenergia3 {
         width: 100vw;
         height: 400px;
-        
         margin-bottom: 30px;
         background-size: cover;
         background-repeat: no-repeat;
-        
         background-image: url(..//imagens/img05.jpg);
+    }
+
+    /* ANIMAÇÕES */
+
+    #sobreenergia1, #sobreenergia2, #sobreenergia3 {
+        visibility: hidden;
     }
 
     #sobreh5-1 {
@@ -239,6 +244,11 @@ main {
     margin-bottom: 30px;
     border-radius: 7px 7px 7px 7px;
 }
+
+/* ANIMAÇÕES */
+.escolha {
+    visibility: hidden;
+}
     .escolha h2 {
         padding: 20px;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.123);
@@ -267,6 +277,11 @@ main {
         height: 150px;
         background-color: #CFDDE9;
         margin-bottom: 30px;
+    }
+
+    /* ANIMAÇÕES */
+    #grafico1, #grafico2, #grafico3 {
+        visibility: hidden;
     }
 
     .graficofontes {
@@ -310,6 +325,11 @@ main {
     margin-bottom: 30px;
 }
 
+/* ANIMAÇÕES */
+.bannerempresa {
+    visibility: hidden;
+}
+
     .bannerempresa > p {
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 1.5em;
@@ -325,7 +345,12 @@ main {
     height: 150px;
     margin-bottom: 30px;
 }
-    
+
+/* ANIMAÇÕES */
+.nossosservicos {
+    visibility: hidden;
+}
+
     .nossosservicos > h2 {
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
@@ -397,6 +422,11 @@ main {
     #atendimentos3 > p {
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 20px;
+    }
+    
+    /* ANIMAÇÕES */
+    #atendimentos1, #atendimentos2, #atendimentos3 {
+        visibility: hidden;
     }
 /* FIM TIPOS DE ATENDIMENTOS */
 

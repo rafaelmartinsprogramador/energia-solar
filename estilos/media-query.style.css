@@ -46,6 +46,9 @@
         padding-top: 140px;
     }
 
+    #titulocard2 {
+        font-size: 22px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -82,10 +85,6 @@
 @media screen and (min-width: 769px) and (max-width: 1200px) {
     .carousel-inner {
         height: 400px;
-    }
-
-    #titulocard2 {
-        font-size: 22px;
     }
 }
 /* CONFIGURAÇÃO PARA OS ICONES SE ADAPTAREM A DIFERENTE TAMANHO DE TELAS. */
